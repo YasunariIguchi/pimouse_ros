@@ -7,3 +7,5 @@ script:
   - bash -xve ./test/travis_package_make.bash
 before install:
   - chmod +x travis_ros_install.bash
+  - chmod +x setup.bash
+  - chmod +x travis_package_make.bash
