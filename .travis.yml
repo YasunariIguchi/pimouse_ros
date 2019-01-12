@@ -3,3 +3,6 @@ dist: trusty
 
 script:
   - bash -xve ./test/travis_ros_install.bash
+
+before install:
+  - chmod +x travis_ros_install.bash
